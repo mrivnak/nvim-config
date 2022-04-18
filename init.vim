@@ -16,4 +16,4 @@ set scrolloff=5 " Scroll Screen when cursor is 5 lines away from the edge
 " Remember last position
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-set guifont=UbuntuMono\ Nerd\ Font:12
+set guifont=FiraCode\ Nerd\ Font\ Mono:11
