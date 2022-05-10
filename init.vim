@@ -21,3 +21,7 @@ set guifont=FiraCode\ Nerd\ Font\ Mono:11
 " Don't copy when pressing delete
 noremap x "_x
 noremap <Del> "_x
+
+call plug#begin()
+Plug 'projekt0n/github-nvim-theme'
+call plug#end()
