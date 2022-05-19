@@ -25,3 +25,5 @@ noremap <Del> "_x
 call plug#begin()
 Plug 'projekt0n/github-nvim-theme'
 call plug#end()
+
+colorscheme github_dark_default
