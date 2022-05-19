@@ -18,7 +18,8 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 
 set guifont=FiraCode\ Nerd\ Font\ Mono:11
 
-" Don't copy when pressing delete
+" Don't copy when pressing delete\
+noremap d "_x
 noremap x "_x
 noremap <Del> "_x
 
